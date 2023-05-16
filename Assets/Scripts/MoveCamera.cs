@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoveCameraWithMouse : MonoBehaviour
+public class MoveCamera : MonoBehaviour
 {
     public float sensX;
     public float sensY;
