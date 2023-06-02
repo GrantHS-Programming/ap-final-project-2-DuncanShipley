@@ -7,12 +7,17 @@ public class SwitchScenesOnKeypress : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            Application.LoadLevel("locations");
+            //Application.LoadLevel("locations");
        
         }
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Application.LoadLevel("Main Scene");
+            //Application.LoadLevel("Main Scene");
+
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
 
         }
     }
