@@ -20,7 +20,7 @@ public class CoinScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        GH.coins++;
+        GameHandler.coins++;
         AudioSource.PlayClipAtPoint(coinSound, transform.position);
         Destroy(gameObject);
     }

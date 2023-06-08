@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class GameHandler : MonoBehaviour
 {
     public Text CoinText;
-    public int coins = 0;
+    static public int coins = 0;
 
     // Update is called once per frame
     void Update()
